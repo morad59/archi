@@ -1,0 +1,37 @@
+<html lang="<?php echo $lang; ?>">
+ <head>
+  <title><?php echo $title; ?></title>
+  <link rel="stylesheet" media="screen" href="ui/css/style.css" type="text/css"/>
+  <link rel="shortcut icon" href="ui/img/favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8"/>
+ </head>
+ <body>
+  <h2 class="ui teal image header">
+      <img src="ui/img/logo.png" class="image">
+      <div class="content">
+        <?php echo $trusted_space; ?>
+      </div>
+  </h2>
+  <form action="/main" method="post" name="appliops_mail_box" id="appliops_mail_box" style ="visibility:block;"> 
+    <fieldset>
+      <div class="form-item">
+        <label for="username"><?php echo $id_w; ?></label>
+        <input name="username" type="text" id="username" placeholder="<?php echo $id_pl_w; ?>" required autocomplete="off"/>
+      </div>
+      <div class="form-item">
+        <label for="password"><?php echo $pw_w; ?></label>
+        <input name="password" type="password" id="password" placeholder="<?php echo $pw_pl_w; ?>" required autocomplete="off"/>
+      </div>
+      <div class="form-item login">
+        <input name="submit" value="<?php echo $login_w; ?>" type="submit" id="submit"/>
+      <div>
+    </fieldset>
+  </form> 
+ </body>
+
+
+
+
+
+</html>

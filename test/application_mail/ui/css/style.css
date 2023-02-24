@@ -1,0 +1,157 @@
+body{
+   background-color: #DADADA;
+}
+
+#appliops_mail_box{
+   width: 96%;
+   margin: auto;
+   background-color: white;
+   border-radius: 4px;
+}
+
+#appliops_mail_box fieldset{
+   border-radius:4px;
+   padding: 0px;
+   background: darkgray;
+
+}
+
+.form-item{
+   height: 40px;
+   padding-right: 9px;
+}
+
+.form-item.login{
+   clear:both;
+   padding: 15px;
+}
+
+#username, #password{
+   height:100%;
+   width: 85%;
+   float: right;
+}
+
+.form-item label{
+   height: 100%;
+   display: inline-block;
+   line-height: 2.5em;
+   width: 100%;
+   font-size: 1.14285714rem;
+   color: #FFFFFF !important;
+   padding-left: 7px;
+}
+
+#appliops_mail_box #submit{
+   display: block;
+   margin: auto;
+   height: 100%;
+   background-color: #009c95;
+   color: #FFFFFF;
+   text-shadow: none;
+   font-size: 1.14285714rem;
+}
+
+#username {
+    background-image: url("../img/id_pic.png");
+    background-repeat: no-repeat;
+    background-position: -2px 1px;
+    background-size: 38px 35px;
+    padding-left: 38px;
+}
+
+#password {
+    background-image: url("../img/pw_pic.png");
+    background-repeat: no-repeat;
+    background-position: 1px 1px;
+    background-size: 30px 35px;
+    padding-left: 38px;
+}
+
+.ui.teal.image.header{
+    width:95%;
+    margin:auto;
+    margin-bottom: 11px;
+    color: #00B5AD !important;
+}
+
+.ui.header > .image:not(.icon), .ui.header > img {
+    display: inline-block;
+    margin-top: 0.14285714em;
+    width: 2.5em;
+    height: auto;
+    vertical-align: middle;
+}
+
+.ui.header > img + .content, .ui.header > .image + .content {
+    padding-left: 0.75rem;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.row {
+    max-width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nbmail{
+    background-image: url("../img/nbmail.png");
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: 63px;
+    background-position: left center;
+}
+
+.username{
+    background-image: url("../img/user.png");
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: 41px;
+    background-position: left center;
+}
+
+.writedown{
+    background-image: url("../img/writedown.png");
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: 41px;
+    background-position: 7px center;
+}
+
+.logout{
+    background-image: url("../img/logout.png");
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: 41px;
+    background-position: left center;
+}
+
+.row-mail-header{
+    list-style:none;
+    border-bottom: 1px solid black;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mail-content-table .checkmark-item{
+    float:left;
+    padding: 6px;
+    display:inline-block;
+}
+
+.date-mail-header{
+    float:right;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+  .ui.header > .image:not(.icon), .ui.header > img {
+      display: block;
+      margin: auto;
+  }
+}
+
+

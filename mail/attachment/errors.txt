@@ -1,0 +1,1 @@
+identify-im6.q16: insufficient image data in file `./4-carte_v.jpg' @ error/jpeg.c/ReadJPEGImage/1117.
