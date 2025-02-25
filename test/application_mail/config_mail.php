@@ -1,12 +1,12 @@
 <?php
 
 return [
-    /*'server_smtp_mail' => '{imap.ionos.fr:993/imap/ssl}INBOX',*/ 
-    'server_smtp_mail' => '{imap.laposte.net:993/imap/ssl}INBOX',
-    'id_mail' => 'contact@appliops.fr', 
-    /*'id_mail' => 'morad.derouich@laposte.net',*/ 
-    'api_key_mail' => 'Encule1985&&a&'
-    /*'api_key_mail' => 'Hazebrouck111a'*/ 
+    /*'server_smtp_mail' => '{imap.*************/imap/ssl}INBOX',*/ 
+    'server_smtp_mail' => '{imap.$$$$$$$$:***/imap/ssl}INBOX',
+    'id_mail' => '$$$$$$$$$$$$$$$', 
+    /*'id_mail' => '**************@***********',*/ 
+    'api_key_mail' => '$$$$$$****&&a&'
+    /*'api_key_mail' => '**************'*/ 
 ];
 
 ?>
